@@ -135,7 +135,7 @@ function showScreen(id) {
 function loadPhoto(number) {
 
   const file =
-    `images/${String(number).padStart(2, "0")}.jpg`;
+    `${String(number).padStart(2, "0")}.jpg`;
 
   const img = $("photo");
 
