@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#160d20">
+    <title>For Gauri ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="app">
+
+        <!-- START SCREEN -->
+        <section id="startScreen" class="screen active">
+            <div class="heart-big">♡</div>
+
+            <p class="eyebrow">A tiny birthday surprise</p>
+
+            <h1>
+                For my Eira,<br>
+                <span>on her 22nd birthday. ❤️</span>
+            </h1>
+
+            <p class="sub">
+                22 little moments for the girl turning 22.
+            </p>
+
+            <button id="startBtn" class="primary">
+                START →
+            </button>
+
+            <p class="tiny">
+                Warning: stupid amounts of affection ahead.
+            </p>
+        </section>
+
+
+        <!-- PHOTO SCREEN -->
+        <section id="photoScreen" class="screen">
+
+            <header class="topbar">
+                <span id="counter">01 / 21</span>
+                <span>♥</span>
+            </header>
+
+            <div class="photo-card">
+
+                <div class="photo-wrap">
+
+                    <img id="photo" src="images/01.jpg" alt="A memory">
+
+                    <div id="photoError" class="photo-error hidden">
+                        Couldn't load this photo.<br>
+                        Make sure the file is named
+                        <b id="missingName">01.jpg</b>
+                        inside the <b>images</b> folder.
+                    </div>
+
+                </div>
+
+                <div class="message">
+                    <h2 id="messageTitle">
+                        The Beginning
+                    </h2>
+
+                    <p id="messageText">
+                        I don't know how one person managed to become this important to me... but here we are. ❤️
+                    </p>
+                </div>
+
+            </div>
+            <button id="voiceBtn" class="voice-btn hidden">
+                ▶️ Play Voice Note
+            </button>
+
+            <button id="nextBtn" class="primary big">
+                NEXT ❤️
+            </button>
+
+        </section>
+
+
+        <!-- PASSWORD SCREEN -->
+        <section id="passwordScreen" class="screen">
+
+            <div class="lock">🔐</div>
+
+            <p class="eyebrow">
+                21 / 21
+            </p>
+
+            <h1>
+                One last little secret.
+            </h1>
+
+            <p class="sub">
+                You've seen 21 pieces.
+                There's one more waiting for you.
+            </p>
+
+            <div class="password-box">
+
+                <p>
+                    Do you know the password? 👀
+                </p>
+
+                <input id="passwordInput" type="text" autocomplete="off" placeholder="Enter password">
+
+                <button id="unlockBtn" class="primary">
+                    UNLOCK ❤️
+                </button>
+
+                <p id="errorText" class="error"></p>
+
+            </div>
+
+        </section>
+
+
+        <!-- FINAL SCREEN -->
+        <section id="finalScreen" class="screen">
+
+            <div class="final-stars">
+                ✦ ✧ ♥ ✧ ✦
+            </div>
+
+            <p class="eyebrow">
+                22 / 22 ❤️
+            </p>
+
+            <h1>
+                Happy Birthday, Gauri.
+            </h1>
+
+            <p class="sub">
+                You made it to the last one.
+            </p>
+
+            <div class="final-card">
+
+                <img id="finalPhoto" src="images/22.jpg" alt="Birthday wish for Gauri">
+
+                <div id="finalError" class="photo-error hidden">
+                    Couldn't load <b>images/22.jpg</b>.<br>
+                    Put your final birthday photo there.
+                </div>
+
+                <div class="final-message">
+
+                    <p>
+                        This one isn't just another photo.
+                    </p>
+
+                    <p>
+                        It's my little way of saying that I'm
+                        really, really happy you're in my life.
+                    </p>
+
+                    <h2>
+                        Happy 22nd birthday, birthday girl. ❤️
+                    </h2>
+
+                    <p>
+                        I love you. Now go enjoy your birthday. 🥹❤️
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+    <audio id="voice1" src="voice1.mp3"></audio>
+    <audio id="voice2" src="voice2.mp3"></audio>
+    <audio id="voice3" src="voice3.mp3"></audio>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
