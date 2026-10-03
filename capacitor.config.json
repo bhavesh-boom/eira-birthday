@@ -1,0 +1,8 @@
+{
+  "appId": "com.bhaveshboom.eirabirthday",
+  "appName": "For Gauri ❤️",
+  "webDir": ".",
+  "server": {
+    "androidScheme": "https"
+  }
+}
